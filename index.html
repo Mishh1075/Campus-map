@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Campus Map - K.J. Somaiya Institute of Technology</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <header class="bg-white dark:bg-gray-800 shadow-md p-4">
+        <h1 class="text-xl font-bold text-center">K.J. Somaiya Institute of Technology</h1>
+        <h2 class="text-sm text-center text-gray-600 dark:text-gray-400">Interactive Campus Map</h2>
+    </header>
+    
+    <div id="map"></div>
+    
+    <div id="buildingView" class="bg-white dark:bg-gray-800 p-4 shadow-inner">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="buildingTitle" class="text-lg font-bold"></h3>
+                <button id="closeBuilding" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="floorSelection" class="mb-4">
+                <h4 class="text-sm font-medium mb-2">Select Floor:</h4>
+                <div id="floorButtons" class="floor-buttons flex flex-wrap gap-2"></div>
+            </div>
+            
+            <div id="floorDetails" class="mb-4">
+                <div id="floorFacilities" class="mb-4">
+                    <h4 class="font-medium">Floor Facilities:</h4>
+                    <p id="facilitiesList" class="text-sm text-gray-600 dark:text-gray-400"></p>
+                </div>
+                
+                <div id="roomsContainer">
+                    <h4 class="font-medium mb-2" id="roomsTitle">Classrooms:</h4>
+                    <div id="roomsList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="directionsPanel" class="bg-white dark:bg-gray-800 p-4">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="destinationTitle" class="text-lg font-bold">Directions to Classroom</h3>
+                <button id="closeDirections" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="originSelection" class="mb-4">
+                <h4 class="text-sm font-medium mb-2">Select Starting Point:</h4>
+                <div id="originButtons" class="origin-buttons flex flex-wrap gap-2">
+                    <button data-origin="Staircase1" class="px-3 py-1 text-sm rounded border border-gray-300 dark:border-gray-600">Staircase 1</button>
+                    <button data-origin="Staircase2" class="px-3 py-1 text-sm rounded border border-gray-300 dark:border-gray-600">Staircase 2</button>
+                    <button data-origin="Staircase3" class="px-3 py-1 text-sm rounded border border-gray-300 dark:border-gray-600">Staircase 3</button>
+                </div>
+            </div>
+            
+            <div id="directionsContainer" class="mb-4">
+                <h4 class="font-medium mb-3">Follow these directions:</h4>
+                <div id="directionsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
