@@ -113,7 +113,103 @@ const directionsDatabase = {
             ]
         },
     },
-    'itBuilding': { 
+    '2nd floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "207,206,205A,205B,206,207 will be on your right" }  
+],
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "204,205A,203,202,cr1 will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "205B,206,207 will be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will 203,202,cr1"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will 204,205A,205B,206,207"}
+    '3rd floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "cr7,cr8,cr9 will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "303,302A,301A will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "cr4,cr5,cr6 will be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will 303,302A,302B,301A"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will cr4,cr5,c6"}
+           
+        ]
+    '4th floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "cr7,cr8,cr9 will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "403,402A,402B,401A,401B,cr7 will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "cr8,cr9 will be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will see 403,402A,402B,401A,401B"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will cr7,cr8,cr9"}
+          '5th floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 5th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "cr10,cr11,cr12 will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 5th floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "503,502b,502a,501a,501b,CR1O will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "cr11,cr12 will be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 5th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will see 503,502A,502B,501A,501B"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will see cr10,cr11,cr12"}
+
+     'itBuilding': { 
         'L01': {
             'MainEntrance': [
                 { step: 1, instruction: "Enter IT Department through the main entrance" },
