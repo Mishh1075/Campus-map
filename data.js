@@ -113,7 +113,7 @@ const directionsDatabase = {
             ]
         },
     },
-    '2nd floor': {
+     '2nd floor': {
             'Staircase1': [
                 { step: 1, instruction: "locate staircase no:1" },
                 { step: 2, instruction: "climb upto 2nd floor" },
@@ -185,7 +185,8 @@ const directionsDatabase = {
                 { step: 4, instruction: "You will see 403,402A,402B,401A,401B"}
                 { step: 5, instruction: "Take a left towards the end" },
                 { step: 6, instruction: "You will cr7,cr8,cr9"}
-          '5th floor': {
+    
+    '5th floor': {
             'Staircase1': [
                 { step: 1, instruction: "locate staircase no:1" },
                 { step: 2, instruction: "climb upto 5th floor" },
@@ -209,6 +210,76 @@ const directionsDatabase = {
                 { step: 5, instruction: "Take a left towards the end" },
                 { step: 6, instruction: "You will see cr10,cr11,cr12"}
 
+  '6th floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 6th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "604A,604B,605A,605B,606,607 will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 6th floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "603,602,603,604A,604B will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "605A,605B,606,607 be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 6th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will see 603,602,603"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will see 604A,604B,605A,605B,606,607"}
+    '7th floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 7th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "703,cr13,701 will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 7th floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "hod cabin,cr14,706,cr15,cr16 will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "cr14,cr15,cr16,706 be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 7th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will see 703,cr13,701"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will see hod cabin,cr14,706,cr15,cr16"}
+     '8th floor': {
+            'Staircase1': [
+                { step: 1, instruction: "locate staircase no:1" },
+                { step: 2, instruction: "climb upto 8th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "808,807,nli lab,806,805,physics lab will be on your right" }  
+               
+                'Staircase2': [
+                { step: 1, instruction: "Locate Staircase no: 02" },
+                { step: 2, instruction: "Climb up to 8th floor" },
+                { step: 3, instruction: "take a left towards the end" },
+                { step: 4, instruction: "803,802,801,scilab,physics lab,806 will be on your left"}
+                { step: 5, instruction: "take a right towards end"}
+                { step: 6, instruction: "nli lab,807,808 be on your right"}
+               
+        ],
+                'Staircase3': [
+                { step: 1, instruction: "Locate Staircase no: 03" },
+                { step: 2, instruction: "Climb up to 8th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "You will see 803,802,801,scilab"}
+                { step: 5, instruction: "Take a left towards the end" },
+                { step: 6, instruction: "You will see physics lab,806,nli lab,807,808"}
+            
      'itBuilding': { 
         'L01': {
             'MainEntrance': [
