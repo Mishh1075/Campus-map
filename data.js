@@ -12,12 +12,12 @@ const campusData = {
             floorData: [
                 { floor: "Ground Floor", classrooms: ["Medical Room", "Workshop", "Chemistry Lab", "Staircase 01", "Administrative Office", "Staircase 02", "CR01", "Canteen", "IT Entrance", "Staircase 03",  "Stationary and Xerox"], facilities: ["Medical Room", "Administrative Office", "Cafeteria", "Workshop", "Chemistry Lab"] },
                 { floor: "1st Floor", classrooms: ["Auditorium", "Library", "Examination Cell"], facilities: ["Auditorium", "Library", "Examination Cell"] },
-                { floor: "2nd Floor", classrooms: ["2C01", "2C02", "2C03", "2C04", "2C05", "2C06", "2C07", "2C08", "2C09", "2C10", "2C11", "2C12"], facilities: ["Lecture Halls", "Student Activity Room"] },
-                { floor: "3rd Floor", classrooms: ["3C01", "3C02", "3C03", "3C04", "3C05", "3C06", "3C07", "3C08", "3C09", "3C10", "3C11", "3C12"], facilities: ["Lecture Halls", "Research Lab"] },
-                { floor: "4th Floor", classrooms: ["4C01", "4C02", "4C03", "4C04", "4C05", "4C06", "4C07", "4C08", "4C09", "4C10", "4C11", "4C12"], facilities: ["Lecture Halls", "Department Library"] },
-                { floor: "5th Floor", classrooms: ["5C01", "5C02", "5C03", "5C04", "5C05", "5C06", "5C07", "5C08", "5C09", "5C10", "5C11", "5C12"], facilities: ["Lecture Halls", "Conference Room"] },
-                { floor: "6th Floor", classrooms: ["6C01", "6C02", "6C03", "6C04", "6C05", "6C06", "6C07", "6C08", "6C09", "6C10", "6C11", "6C12"], facilities: ["Lecture Halls", "Student Lounge"] },
-                { floor: "7th Floor", classrooms: ["7C01", "7C02", "7C03", "7C04", "7C05", "7C06", "7C07", "7C08", "7C09", "7C10", "7C11", "7C12"], facilities: ["Auditorium", "Event Space"] }
+                { floor: "2nd Floor", classrooms: ["203", "202", "cr1", "204", "205A", "205B", "206", "207"], facilities: ["BEE lab"] },
+                { floor: "3rd Floor", classrooms: ["303", "302A", "302B", "301A", "cr4", "cr5", "cr6" ], facilities: ["Lecture Halls", "Research Lab"] },
+                { floor: "4th Floor", classrooms: ["403", "402B", "402A", "401A", "401B", "cr7", "cr8", "cr9" ], facilities: ["Lecture Halls", "Department Library"] },
+                { floor: "5th Floor", classrooms: ["503", "502A", "502B", "501A", "501B", "CR10", "cr11", "cr12" ], facilities: ["Lecture Halls", "Conference Room"] },
+                { floor: "6th Floor", classrooms: ["603", "602", "601", "604A", "604B", "605A", "6O5B", "606", "607"], facilities: ["Lecture Halls", "Student Lounge"] },
+                { floor: "7th Floor", classrooms: ["703", "cr13", "701", "cr14", "706", "cr15", "cr16", ], facilities: ["Auditorium", "Event Space"] }
             ]
         },
         {
