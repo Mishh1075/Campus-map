@@ -112,7 +112,523 @@ const directionsDatabase = {
                 { step: 4, instruction: "You will see the entrance to Examination cell"}
             ]
         },
-    },
+    
+        "207": {
+            "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 207 will be on your right" }
+            ],
+            "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "Room 207 will be on your right" }
+            ],
+            "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Room 207 will be on your right" }
+            ]
+        },
+        "206": {
+            "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 206 will be on your right" }
+            ],
+            "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "Room 206 will be on your right" }
+            ],
+            "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Room 206 will be on your right" }
+            ]
+        },
+            "205A": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 205A will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 205A will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Room 205A will be along the way" }
+                ]
+            },
+            "205B": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 205B will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "Room 205B will be on your right" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Room 205B will be along the way" }
+                ]
+            },
+            "204": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue straight past room 205A" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Room 204 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 204 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Room 204 will be along the way" }
+                ]
+            },
+            "203": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue straight past room 205A" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past room 204" },
+                { step: 7, instruction: "Room 203 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 203 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 203 will be visible" }
+                ]
+            },
+            "202": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue straight past room 205A" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past rooms 204 and 203" },
+                { step: 7, instruction: "Room 202 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 202 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 202 will be visible" }
+                ]
+            },
+            "CR1": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue straight past room 205A" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past rooms 204, 203, and 202" },
+                { step: 7, instruction: "CR1 will be at the end of the corridor" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "CR1 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 2nd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "CR1 will be visible" }
+                ]
+            },
+            "CR7": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "CR7 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right at the junction" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR7 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR7 will be on your left" }
+                ]
+            },
+            "CR8": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "CR8 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right at the junction" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR8 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR8 will be on your left" }
+                ]
+            },
+            "CR9": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "CR9 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right at the junction" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR9 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "Continue to the end of the corridor" },
+                { step: 6, instruction: "CR9 will be on your left" }
+                ]
+            },
+            "303": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Room 303 will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 303 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 303 will be visible" }
+                ]
+            },
+            "302A": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past room 303" },
+                { step: 7, instruction: "Room 302A will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 302A will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 302A will be visible" }
+                ]
+            },
+            "302B": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past rooms 303 and 302A" },
+                { step: 7, instruction: "Room 302B will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Continue past rooms 303 and 302A" },
+                { step: 5, instruction: "Room 302B will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 302B will be visible" }
+                ]
+            },
+            "301A": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue past rooms 303, 302A, and 302B" },
+                { step: 7, instruction: "Room 301A will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 301A will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 301A will be visible" }
+                ]
+            },
+            "CR4": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue to the end of corridor" },
+                { step: 7, instruction: "Take a right" },
+                { step: 8, instruction: "CR4 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "CR4 will be on your right" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "CR4 will be visible" }
+                ]
+            },
+            "CR5": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue to the end of corridor" },
+                { step: 7, instruction: "Take a right" },
+                { step: 8, instruction: "Continue past CR4" },
+                { step: 9, instruction: "CR5 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "CR5 will be on your right" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "CR5 will be visible" }
+                ]
+            },
+            "CR6": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at the junction" },
+                { step: 6, instruction: "Continue to the end of corridor" },
+                { step: 7, instruction: "Take a right" },
+                { step: 8, instruction: "Continue past CR4 and CR5" },
+                { step: 9, instruction: "CR6 will be on your right" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Take a right towards end" },
+                { step: 5, instruction: "CR6 will be on your right" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 3rd floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Take a left towards the end" },
+                { step: 5, instruction: "CR6 will be visible" }
+                ]
+            },
+            "403": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at junction" },
+                { step: 6, instruction: "Room 403 will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 403 will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 403 will be visible" }
+                ]
+            },
+            "402A": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at junction" },
+                { step: 6, instruction: "Continue past room 403" },
+                { step: 7, instruction: "Room 402A will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 402A will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 402A will be visible" }
+                ]
+            },
+            "402B": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at junction" },
+                { step: 6, instruction: "Continue past rooms 403 and 402A" },
+                { step: 7, instruction: "Room 402B will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 402B will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 402B will be visible" }
+                ]
+            },
+            "401A": {
+                "Staircase1": [
+                { step: 1, instruction: "Locate staircase no:1" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Continue past CR7, CR8, and CR9" },
+                { step: 5, instruction: "Take a left at junction" },
+                { step: 6, instruction: "Continue past rooms 403, 402A, and 402B" },
+                { step: 7, instruction: "Room 401A will be on your left" }
+                ],
+                "Staircase2": [
+                { step: 1, instruction: "Locate staircase no:2" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a left towards the end" },
+                { step: 4, instruction: "Room 401A will be on your left" }
+                ],
+                "Staircase3": [
+                { step: 1, instruction: "Locate staircase no:3" },
+                { step: 2, instruction: "Climb up to 4th floor" },
+                { step: 3, instruction: "Take a right towards the end" },
+                { step: 4, instruction: "Room 401A will be visible" }
+                ]
+            },
+},
+
     'itBuilding': { 
         'L01': {
             'MainEntrance': [
